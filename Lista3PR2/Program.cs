@@ -333,69 +333,42 @@ namespace Lista3PR2
                     switch (menu)
                     {
                         case 1:
-                            Console.WriteLine("Digite o valor total do seu salario: ");
-                            salario = float.Parse(Console.ReadLine());
-
-                            res = salario + 0.075f;
-                            diferenca = res - salario;
-
-                            Console.WriteLine("seu salario era: " + salario + " com o acrescimo ele ficou: " + res + "a diferença entre eles é: " + diferenca);
+                            Console.WriteLine("Voce esta insento de imposto de renda ");
+                            
                             break;
                         case 2:
-                            Console.WriteLine("Digite o valor total do seu salario: ");
+                            Console.WriteLine("Qual o valor exxato do seu salario?: ");
                             salario = float.Parse(Console.ReadLine());
 
-                            res = salario + 0.097f;
-                            diferenca = res - salario;
+                            res = salario - 0.075f;
 
-                            Console.WriteLine("seu salario era: " + salario + " com o acrescimo ele ficou: " + res + "a diferença entre eles é: " + diferenca);
+                            Console.WriteLine("seu salrio liquido é de: " + res);
                             break;
                         case 3:
-                            Console.WriteLine("Digite o valor total do seu salario: ");
+                            Console.WriteLine("Qual o valor exxato do seu salario?: ");
                             salario = float.Parse(Console.ReadLine());
 
-                            res = salario + 0.117f;
-                            diferenca = res - salario;
+                            res = salario - 0.15f;
 
-                            Console.WriteLine("seu salario era: " + salario + " com o acrescimo ele ficou: " + res + "a diferença entre eles é: " + diferenca);
+                            Console.WriteLine("seu salrio liquido é de: " + res);
                             break;
                         case 4:
-                            Console.WriteLine("Digite o valor total do seu salario: ");
+                            Console.WriteLine("Qual o valor exxato do seu salario?: ");
                             salario = float.Parse(Console.ReadLine());
 
-                            res = salario + 0.089f;
-                            diferenca = res - salario;
+                            res = salario - 0.225f;
 
-                            Console.WriteLine("seu salario era: " + salario + " com o acrescimo ele ficou: " + res + "a diferença entre eles é: " + diferenca);
+                            Console.WriteLine("seu salrio liquido é de: " + res);
                             break;
                         case 5:
-                            Console.WriteLine("Digite o valor total do seu salario: ");
+                            Console.WriteLine("Qual o valor exxato do seu salario?: ");
                             salario = float.Parse(Console.ReadLine());
 
-                            res = salario + 0.1324f;
-                            diferenca = res - salario;
+                            res = salario - 0.275f;
 
-                            Console.WriteLine("seu salario era: " + salario + " com o acrescimo ele ficou: " + res + "a diferença entre eles é: " + diferenca);
+                            Console.WriteLine("seu salrio liquido é de: " + res);
                             break;
-                        case 6:
-                            Console.WriteLine("Digite o valor total do seu salario: ");
-                            salario = float.Parse(Console.ReadLine());
-
-                            res = salario + 0.104f;
-                            diferenca = res - salario;
-
-                            Console.WriteLine("seu salario era: " + salario + " com o acrescimo ele ficou: " + res + "a diferença entre eles é: " + diferenca);
-                            break;
-                        case 7:
-                            Console.WriteLine("Digite o valor total do seu salario: ");
-                            salario = float.Parse(Console.ReadLine());
-
-                            res = salario + 0.146f;
-                            diferenca = res - salario;
-
-                            Console.WriteLine("seu salario era: " + salario + " com o acrescimo ele ficou: " + res + "a diferença entre eles é: " + diferenca);
-                            break;
-
+                        
                         default:
                             Console.WriteLine("opção invalida");
                             break;
@@ -403,7 +376,7 @@ namespace Lista3PR2
 
                     }
 
-
+                    break;
 
 
 
